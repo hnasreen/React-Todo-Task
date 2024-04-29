@@ -1,0 +1,43 @@
+.filterStatusdropdown{
+    margin-left:10px;
+    margin-top:2px;
+    width:150px;
+    height:30px;
+    background-color: rgb(253,129,130);
+    color:white;
+}
+.card-body{
+    background-color: rgb(204,245,211);
+    border:none;
+}
+
+.card-buttons .edit-btn{
+    background-color: rgb(19,173,137);
+    color:white;
+    border:none;
+    border-radius:5px;
+    width:75px;
+}
+
+.card-buttons .delete-btn{
+    background-color: rgb(208,94,32);
+    color:white;
+    border:none;
+    border-radius:5px;
+    width:75px;
+}
+.card-buttons{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+   justify-content: end;
+   margin-top:50px;
+}
+.card{
+    display:flex;
+    flex-direction: row;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,50 @@
+h1{
+    display:flex;
+    justify-content: center;
+    color:rgb(104,186,166)
+}
+.todoform{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding-top:30px;
+    gap:20px;
+    margin-bottom: 50px;
+}
+.todoform input{
+    border:1px solid rgb(104,186,166);
+    border-radius:5px;
+    width:300px;
+    padding:5px;
+}
+.todo-button button{
+    background-color: rgb(16,174,137);
+    color:white;
+    border-radius:5px;
+    border:none;
+    width:150px;
+    height:40px;
+}
+.filter{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:10px;
+}
+
+.filter{
+    color:black;
+}
+.filterdropdown{
+    display:flex;
+    flex-direction:row;
+}
+
+.filterdropdown select{
+    margin-left:10px;
+    margin-top:2px;
+    width:50px;
+    height:30px;
+    background-color: rgb(253,129,130);
+    color:white;
+}
